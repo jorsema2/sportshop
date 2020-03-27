@@ -1,0 +1,52 @@
+header {
+    align-items: baseline;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70px;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+li {
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+#carousel div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    
+}
+
+
+#partnerships img {
+    height: 27px;
+    width: 40%;
+}
+
+#social-media img {
+    height: 36px;
+    width: 30%;
+}
